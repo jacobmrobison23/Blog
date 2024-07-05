@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Assets/style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Blog</title>
 </head>
 
 <body>
+    <input type="checkbox" id="darkmodeToggle"> 
+    <label for="darkmodeToggle"></label>
     <header id="myfirstHeader"><h1 id="textadjustH1">My First Blog</h1></header>
-<header id="aboveForm"><h2>Whats on your mind?</h2></header>
+    <header id="aboveForm"><h2>Whats on your mind?</h2></header>
     <div>
         <form class="blogForm">
+        
             <label for="username">Username:</label><br>
             <input type="text" id="formUsername" name="username"><br>
             <label for="title">Title:</label><br>
             <input type="text" id="formTitle" name="title"><br>
             <label for="content">Content:</label><br>
             <textarea name="Content" id="formContent" cols="30" rows="10"></textarea><br>
-            <button type="button" onclick="alert('Submitted')">Submit</button>
+            <button id="submitBtn" type="Submit" onclick="">Submit</button>
         
     </div>
 

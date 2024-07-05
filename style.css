@@ -1,0 +1,99 @@
+
+:root{
+    --blogFormWidth:6%;
+    --blogLine: 64%;
+    --darkmodeForm: black;
+    --darkmodeTxt: white;
+    --lightmodeForm: white;
+    --lightmodeTxt: black;
+    --darkmodeBackground: rgb(62,62,62);
+    --lightmodeBackground: white;
+    
+}
+
+#darkmodeToggle{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:0px;
+    left:90%;
+ 
+
+}
+
+
+#myfirstHeader{
+position: relative;
+left: 19%;
+top: 350px;
+display: flex;
+justify-content: left;
+
+}
+
+body{
+background-color: var(--darkmodeBackground);
+  color: var(--darkmodeTxt);
+}
+
+body.active{
+
+color:var(--lightmodeTxt) ;
+background-color: var(--lightmodeBackground);
+}
+
+
+#textadjustH1{
+font-size: 30px;
+display: inline;
+
+}
+
+#aboveForm{
+    position: relative;
+    left: 68%;
+    top: 3-px;
+    display: flex;
+    justify-content: right;
+    flex-direction: column-reverse;
+    color: var(--darkmodeTxt);
+    z-index: 2;
+
+}
+
+.blogForm {
+    position: absolute;
+    left: var(--blogLine);
+    top: 390px;
+    width: 457px;
+    display: inline-flex;
+    justify-content:right;
+   flex-direction: column;
+    padding-left: 5px;
+    padding-right: 2px;
+    padding-bottom: 20px;
+    margin: 0%;
+    background-color:var(--darkmodeForm);
+    color: var(--darkmodeTxt);
+}
+
+#formUsername{
+    width: 440px;
+}
+#formTitle{
+  width: 440px;
+
+}
+
+#formContent {
+width: 440px;
+height: 100px;
+}
+
+
+  
+  #submitBtn{
+width: 440px;
+cursor: pointer;
+  }
