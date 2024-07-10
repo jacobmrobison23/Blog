@@ -6,7 +6,7 @@ const titleInput = document.querySelector("#formTitle");
 const contentInput = document.querySelector("#formcontent");
 
 
-document.getElementById(`blogForm`).addEventListener(`Submit`, function(event) {
+document.getElementById('blogForm').addEventListener('button', function(event) {
     event.preventDefault();
 
     const nameInput = document.getElementById('formUsername').value;
