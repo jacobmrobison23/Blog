@@ -5,3 +5,17 @@ body{
 #button{
     background-color: white;;
 }
+
+
+#darkmodeToggle{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:0px;
+    left:90%;
+
+}
+
+
+
