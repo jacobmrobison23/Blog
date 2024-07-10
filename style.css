@@ -63,9 +63,9 @@ display: inline;
 }
 
 .blogForm {
-    position: absolute;
+    position: relative;
     left: var(--blogLine);
-    top: 390px;
+    top: 190px;
     width: 457px;
     display: inline-flex;
     justify-content:right;
