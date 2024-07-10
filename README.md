@@ -5,4 +5,4 @@
 <summary>HTML, CSS, and Javascript</summary>
 
 <h3>Credit to</h3>
-William alred for helping with java
+William allred and Jose Muchati for helping with java
