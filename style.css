@@ -65,7 +65,7 @@ display: inline;
 .blogForm {
     position: relative;
     left: var(--blogLine);
-    top: 190px;
+    top: 20px;
     width: 457px;
     display: inline-flex;
     justify-content:right;
@@ -93,7 +93,7 @@ height: 100px;
 
 
   
-  #submitBtn{
-width: 440px;
+  #button{
+width: 70px;
 cursor: pointer;
   }
