@@ -16,12 +16,13 @@
         <form class="blogForm">
         
             <label for="username">Username:</label><br>
-            <input type="text" id="formUsername" name="username"><br>
+            <input id="formUsername" type="text"  name="username" required><br>
+            
             <label for="title">Title:</label><br>
-            <input type="text" id="formTitle" name="title"><br>
+            <input id="formTitle" type="text"  name="title" required><br>
             <label for="content">Content:</label><br>
-            <textarea name="Content" id="formContent" cols="30" rows="10"></textarea><br>
-            <button id="submitBtn" type="Submit" onclick="">Submit</button>
+            <textarea  id="formCotent" name="Content"  cols="30" rows="10" required></textarea><br>
+            <button id="submitBtn" type="Submit" onclick="SubmitEvent">Submit</button>
         
     </div>
 
