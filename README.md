@@ -1,8 +1,28 @@
-<h2>READ ME</h2>
-<h3>About Project</h3>
-<summary>Blog for users to write and save their entrys to</summary>
-<h3>Made With</h3>
-<summary>HTML, CSS, and Javascript</summary>
+# Personal Blog
+  by Jacob
+  
+  ## Table of Contents
+  - [Description](#description)
+  - [Requirements](#requirements)
+  - [Usage](#usage)
+  - [contact-me](#contact-me)
+    
+    
+  
+  ## Description
+  This is a blog application which appends a blog card to a seperate html page using JSON and local storage
+  ## Requirements
+  Made using Java,Html,and css
+  ## Usage
+  Simply click the link below and enter your blog data
+  https://jacobmrobison23.github.io/Blog/
+  
+  ## Contact-Me
+  Name: Jacob
+  Email: 
+    GitHub: jacobmrobison23
 
-<h3>Credit to</h3>
-William allred and Jose Muchati for helping with java
+    credit to william allred and jose for help with this project
+
+
+  
