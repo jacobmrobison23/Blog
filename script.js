@@ -1,31 +1,22 @@
 
-// define variables
-const postForm = document.querySelector("#blogForm");
-const nameInput = document.querySelector("#formUsername");
-const titleInput = document.querySelector("#formTitle");
-const contentInput = document.querySelector("#formcontent");
+const form = document.querySelector('form');
 
 
-document.getElementById('blogForm').addEventListener('button', function(event) {
-    event.preventDefault();
+form.addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form submission
 
-    const nameInput = document.getElementById('formUsername').value;
-    const titleInput = document.getElementById('formTitle').value;
-    const contentInput = document.getElementById('formContent').value;
+    const formData = new FormData(form);
 
-    const data = {
-        nameInput: username,
-        titleInput: title,
-        contentInput: content
-    };
+    const data = {};
+    for (let [key, value] of formData.entries()) {
+        data[key] = value;
+    }
 
-    saveFormData(data);
-});
+    localStorage.setItem('formData', JSON.stringify(data));
 
-function saveFormData(formData) {
-    const storedFormData = JSON.parse(localStorage.getItem('data')) || [];
-
-    storedFormData.push(formData);
-
-    localStorage.setItem('formData', JSON.stringify(storedFormData));
+    
+    window.location.href = 'blog.html';
 }
+);
+
+
